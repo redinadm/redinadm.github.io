@@ -1,0 +1,112 @@
+<html lang="en">
+        
+            <head>
+        
+                
+        
+              <title>Redina's Web</title>
+        
+              <!-- Required meta tags -->
+        
+              <meta charset="utf-8">
+        
+              <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+          
+        
+              <!-- Bootstrap CSS -->
+        
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        
+            </head>
+        
+            <body>
+        
+         
+        
+          
+        
+              <!-- Navbar -->
+        
+          <nav class="navbar navbar-expand-lg navbar-dark bg-primary margin">
+        
+            <a class="navbar-brand" href="#">Redina's Web</a>
+        
+           
+        
+          
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+                    <div id="jk" class="btn-group">
+        
+        
+                          </div>
+        
+        
+        
+            </div>
+        
+          </nav>
+        
+              <!-- Wilayah Kekuasaan Navbar -->
+        
+          
+        
+              <center><input type="text" id="nama"/>
+        
+              <button class="btn btn-primaryS margin" id="tombol">Add Item</button></center>
+        
+              
+        
+              <ol class="list-group-item list-group-item-dark margin" id="list">
+        
+           
+        
+              </ol>
+        
+           
+        
+              <script>
+        
+        var namaE = document.getElementById("nama")
+        
+        var tombolE = document.getElementById("tombol")
+        
+        var list = document.getElementById("list")
+        
+        //var x = 6
+        
+        // alert(x)
+        
+        //console.log(x)
+        
+        //namaE.value = "Aria Ganteng"
+        
+        tombol.addEventListener('click', function(){
+        
+        // alert("Hai " +nama.value)
+        
+        var x = nama.value
+        
+        list.innerHTML = list.innerHTML + "<li class='list-group-item'>" + x + "</li>";
+        
+        })
+        
+        </script>
+        
+           
+        
+          <!-- Optional JavaScript -->
+        
+              <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        
+              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        
+            </body>
+        
+          </html>
